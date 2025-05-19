@@ -1,2 +1,8 @@
 # Ignore IDE/editor configs
 .vscode/
+
+# Ignore python cache
+utils/__pycache__/
+
+# Ignore virtual environment
+venv/
