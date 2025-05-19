@@ -1,8 +1,10 @@
 # Ignore IDE/editor configs
 .vscode/
 
-# Ignore python cache
+# Ignore Python cache files
 utils/__pycache__/
+*.py[cod]
+*$py.class
 
 # Ignore virtual environment
 venv/
