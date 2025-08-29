@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:8000/api"
+BASE_URL = "http://localhost:8080/api"
 
 def predict_image(file, filename, filetype="image/jpeg"):
     """Sends image file to the prediction API and returns parsed JSON response."""
